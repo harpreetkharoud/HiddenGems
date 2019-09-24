@@ -403,7 +403,7 @@ screen{
 		// ***********************************************
 
 
-		// **************** Logo**************************
+		// **************** Logo on Home Page **************************
 		@keyframes bounce{
 			0%{
 				opacity:0;
@@ -425,13 +425,16 @@ screen{
 
 		}
 
-		// ********************* App Demo Page*************************
+
 
 		.home{ //(0,0,1,0)
 			.site-header img{ //(0,0,2,1)
 				animation:bounce 3s ease-out;
 			}
 }
+
+	// ********************* Heading on App Demo Page*************************
+	
 @keyframes colorchange {
 0% { color: $color__skin;}
 25% { color: #00803e; }
